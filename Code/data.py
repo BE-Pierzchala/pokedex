@@ -3,6 +3,8 @@ import matplotlib
 import seaborn as sns
 import numpy as np
 
+#TODO: Replace matplotlib and seaborn with plotly
+
 class data:
     effects = {0:'0', 0.5:'-', 1:'1', 2:'+'}  # Translates effectivness of moves into str
     inv_effects = {'0':0, '-':0.5, '1':1, '+':2} # ^ inverse

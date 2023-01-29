@@ -18,7 +18,7 @@ last_result = ''
 usr = ''
 
 while( usr != 'q'):
-    usr = input("\nq: quit\n1: add pokemon interaction\n2: add pokemon\n3: Pokemon data type\n4: pogchart\ns: Save\n>")
+    usr = input("\nq: quit\n1: add pokemon interaction\n2: add pokemon\n3: Pokemon data type\n4: pokechart\ns: Save\n>")
     if( usr == '1'):
         print('\nAdding interaction!\nIf you want to quit press q at any time\n')
         
