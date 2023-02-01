@@ -3,6 +3,6 @@ create_env:
 export_env:
 	conda env export > environment.yml
 run:
-	python main.py
+	python Code/main.py
 gui:
 	python Gui.py
